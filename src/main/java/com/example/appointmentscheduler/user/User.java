@@ -1,4 +1,3 @@
 package com.example.appointmentscheduler.user;
 
-public class User {
-}
+public record User (long id, String content){}
